@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# installs dependencies for heroku
+gem 'rails_12factor'
+# install that theme
 gem 'frontend-generators', '~> 0.0.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
